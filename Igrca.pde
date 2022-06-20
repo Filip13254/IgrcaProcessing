@@ -79,7 +79,7 @@ boolean zadetek()
   {
     if(tarca.x-5<zogca[i].koordinate.x && zogca[i].koordinate.x<tarca.x+5)
     {
-      if(tarca.y-15<zogca[i].koordinate.y && zogca[i].koordinate.y<tarca.y+12)
+      if(tarca.y-15<zogca[i].koordinate.y && zogca[i].koordinate.y<tarca.y+15)
       {
         return true;
       }
