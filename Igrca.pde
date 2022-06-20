@@ -36,7 +36,7 @@ void draw()
   fill(255,0,0);
   text(score,10,80);
   tarca.narisi();
-  mwž();
+  cros();
   
   
   if(mouseX>0)
@@ -64,7 +64,7 @@ void draw()
   top.narisiTop(kot);
 }
 
-void mwž()
+void cros()
 {
   fill(255, 0, 0);
   rect(mouseX, mouseY, 5, 30);
